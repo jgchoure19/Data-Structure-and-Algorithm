@@ -3,7 +3,7 @@ public:
     bool isUgly(int n) {
         
         if(n<=0) return false;
-        if( n==1) return true;
+      //  if( n==1) return true;
         
         while(n%5==0 && n>=5)  n/=5;
           
