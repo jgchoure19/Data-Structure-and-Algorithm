@@ -8,7 +8,7 @@ public:
         int i=0, carry =0;
         string ans="";
         
-        while(i <alen || i < blen || carry!=0){
+        while(i <alen || i < blen || carry!=0){      // this carrry ! work at last
             
              int x=0;
             if(i<alen && a[alen -i-1]=='1'){
