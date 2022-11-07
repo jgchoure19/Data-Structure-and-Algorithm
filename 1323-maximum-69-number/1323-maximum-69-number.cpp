@@ -16,7 +16,7 @@ public:
             
         }
         
-        if(rightcnt==-1)  return num;
+        if(rightcnt==-1)  return num;    //given 9669     we didt add 9669+300=9969
         
         int ans =num+(3* pow(10 , rightcnt));
         return ans;
