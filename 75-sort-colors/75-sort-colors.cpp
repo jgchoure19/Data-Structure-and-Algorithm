@@ -2,8 +2,7 @@ class Solution {
 public:
     void sortColors(vector<int>& nums) {
      
-        //sort(nums.begin() , nums.end());
-         
+        // o(2N)
          int a=0 , b=0 , c=0 ;
         for(int i =0 ; i<nums.size() ; i++){
             
