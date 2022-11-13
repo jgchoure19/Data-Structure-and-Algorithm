@@ -5,7 +5,7 @@ public:
        int n = matrix.size();
         int m = matrix[0].size();
         
-       for( int i =0 ; i< n; i++){
+        for( int i =0 ; i< n; i++){
             
             for( int j =i+1; j < m ; j++){
                 
@@ -28,7 +28,8 @@ public:
             matrix[row][colE] = temp;
         }
         colS++; colE--;
-    }
+    } 
         
+         
     }
 };
