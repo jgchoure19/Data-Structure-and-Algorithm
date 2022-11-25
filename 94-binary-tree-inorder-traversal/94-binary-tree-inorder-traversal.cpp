@@ -31,9 +31,9 @@ public:
                 st.pop();
                 inorder.push_back(node->val);
                 node = node->right;
-                
-                }
+                 }
         }
+        
         return inorder;
     }
 };
