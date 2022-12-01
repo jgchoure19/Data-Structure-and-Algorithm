@@ -9,10 +9,10 @@ public:
             
             if(nums[i]==pre){
                 return true;}
+            
             pre=nums[i];
             
         }
         return false;
-        
     }
 };
