@@ -6,7 +6,6 @@ public:
          int n =x;
           if(x < 0) x = abs(x);
         
-              
         while(x>0){
             
             rev=rev*10+x%10;
